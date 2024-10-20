@@ -1,0 +1,7 @@
+﻿  Dice.cpp
+  Left-Center-Right.cpp
+F:\College Portfolio\IT 312\Left-Center-Right\Left-Center-Right\Left-Center-Right\Left-Center-Right.cpp(18,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Player.cpp
+  Generating Code...
+F:\College Portfolio\IT 312\Left-Center-Right\Left-Center-Right\Left-Center-Right\Dice.cpp(26): warning C4715: 'Dice::rollDie': not all control paths return a value
+  Left-Center-Right.vcxproj -> F:\College Portfolio\IT 312\Left-Center-Right\Left-Center-Right\x64\Debug\Left-Center-Right.exe

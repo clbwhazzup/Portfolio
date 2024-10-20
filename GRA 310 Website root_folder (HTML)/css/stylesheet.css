@@ -1,0 +1,200 @@
+@font-face {
+    font-family: Goudy Old Style Regular;
+    src: url('Goudy Old Style Regular.ttf');
+}
+@font-face {
+    font-family: Klinic Slab Book;
+    src: url('KlinicSlabBook.otf');
+}
+@font-face {
+    font-family: Klinic Slab Bold;
+    src: url('KlinicSlabBold.otf');
+}
+.ignorecss {
+    all:unset;
+}
+#mainimg{
+    float: none;
+    padding: 20px;
+    margin-left: 0;
+    text-align: center;
+}
+#mainimg img{
+    width: 30%;
+}
+#logo {
+    display: block;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    padding: 20px;
+}
+body {
+    background-color: #d8c6b8;
+}
+h1 {
+    font-family: Goudy Old Style Regular;
+    color: rgb(11, 148, 70);
+    text-align: center;
+    border: rgb(85, 50, 55) 1px;
+}
+h2 {
+    font-family: Goudy Old Style Regular;
+    color: rgb(207, 28, 68);
+    text-align: center;
+}
+p {
+    font-family: Klinic Slab Bold;
+    font-size: 18pt;
+    color: rgb(85, 50, 55);
+    text-align: center;
+    max-width: 50%;
+    margin-left: 25%;
+}
+th {
+    font-family: Goudy Old Style Regular;
+    color: rgb(11, 148, 70);
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+}
+form {
+    font-family: Klinic Slab Bold;
+    color: rgb(85, 50, 55);
+    text-align: center;
+}
+#description {
+    width: 285px;
+    height: 50px;
+}
+.contact {
+    text-align: left;
+    margin-left: 30%;
+}
+.contact a {
+    color: rgb(85, 50, 55);
+    text-decoration: none;
+}
+.sociallinks {
+    text-align: center;
+}
+.fa {
+    padding: 20px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-instagram{
+    background: #125688;
+    color: white;
+}
+.promotb {
+    width: 50%;
+    margin-left: 25%;
+}
+.promotb td {
+    border: 10px solid #d8c6b8;
+    font-family: Klinic Slab Bold;
+    font-size: 18pt;
+    background-color: rgb(85, 50, 55);
+    color: #d8c6b8;
+    text-align: center;
+    margin-left: 25%;
+}
+.promotb tr {
+    height: 200px;
+}
+.tablelink{
+    text-decoration: none;
+}
+.promopic {
+    float: none;
+    display: flex;
+    justify-content: center;
+    padding: 1px;
+}
+.promopic img {
+    width: 25%;
+}
+.promopic p {
+    width: 25%;
+    margin: 0%;
+}
+footer {
+    background-color: #543136;
+    height: 200px
+}
+.lfooter {
+    float: left;
+}
+.lfooter p {
+    font-size: 14pt;
+    color: #d8c6b8;
+    text-align: left;
+    margin-left: 30%;
+}
+.lfooter li {
+    padding-bottom: 13px;
+}
+.lfooter a {
+    text-decoration: none;
+    color: #d8c6b8;
+}
+.lfooter a:hover {
+    background-color: #7b573e;
+}
+.rfooter p {
+    float: right;
+    font-size: 14pt;
+    color: #d8c6b8;
+    text-align: right;
+    margin-right: 2%;
+}
+.rfooter a {
+    color: #d8c6b8;
+    text-decoration: none;
+}
+.rfooter a:hover {
+    background-color: #7b573e;
+}
+.navitems {
+    display: flex;
+    justify-content: center;
+    background-color: #543136;
+}
+.navitems a {
+    padding: 20px;
+    text-align: center;
+}
+.navitems a.active {
+    background-color: #d8c6b8;
+}
+.navitems a:link {
+    color: rgb(11, 148, 70);
+    text-decoration: none;
+    font-size: 18pt;
+}
+.navitems a:visited {
+    color: rgb(11, 148, 70);
+}
+.navitems a:focus {
+    background-color: #d8c6b8;
+    outline: 2px solid black;
+}
+.navitems a:hover {
+    background-color: #d8c6b8;
+}

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name" translatable="false">ToDoList</string>
+    <string name="btnAdd">ADD</string>
+    <string name="btnUpdate">UPDATE</string>
+    <string name="btnClear">CLEAR</string>
+    <string name="btnAll">SHOW ALL TASKS</string>
+    <string name="btnBack">BACK</string>
+    <string name="myName">Cameron Binda</string>
+    <string name="help">Cameron Binda | Actual Text: Hold to delete a task. Tap to edit a task</string>
+    <string name="txtHint">To Do Name</string>
+    <string name="deleteAll">DELETE ALL</string>
+</resources>
